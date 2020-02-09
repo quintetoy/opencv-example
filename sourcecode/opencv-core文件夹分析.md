@@ -6,7 +6,39 @@
 
 所有的总结均只来自书籍learning opencv
 
-总结来说，core文件夹中包含数据结构，矩阵运算，数据变换，对象持久，内存管理，错误处理，动态装载，绘图，文本和基本的数学功能。
+总结来说，core文件夹中包含数据结构，矩阵运算，数据变换，对象持久，内存管理，错误处理，动态装载，绘图(移动到imgproc文件夹中了)，文本和基本的数学功能（早期版本数据内容）。
+
+3.4.6版本的官网阐述的基本文件架构如下：
+
+- Basic structures
+
+- C structures and operations
+
+- Operations on arrays
+
+- XML/YAML Persistence
+
+- Clustering
+
+- Utility and system functions and macros
+
+- OpenGL interoperability
+
+- Intel IPP Asynchronous C/C++ Converters
+
+- Optimization Algorithms
+
+- DirectX interoperability
+
+- Eigen support
+
+- OpenCL  support
+
+- Intel VA-API/OpenCL(CL-VA) interoperability
+
+- Hardware Acceleration Layer
+
+  
 
 具体的，core文件夹中主要是opencv的一些基本数据类型和操作，包括：
 
@@ -14,9 +46,9 @@
 
 2、包含很多矩阵mat的基本操作，矩阵之间的运算，矩阵的转换，矩阵之间的特征值计算，矩阵求逆，矩阵图像融合，计算矩阵中的非零元素的个数，矩阵的最大最小值元素，矩阵的区域截取等等。基本的矩阵分析中涉及的基本运算均包含，如SVD，PCA等。
 
-3、包含绘图操作，画直线，圆形，椭圆，多边形等（cvFillPoly）
+3、包含绘图操作，画直线，圆形，椭圆，多边形等（cvFillPoly）（无）
 
-4、字体文字操作等
+4、字体文字操作等（无）
 
 5、xml等数据存储
 
