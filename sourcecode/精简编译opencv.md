@@ -404,7 +404,7 @@ opencv3.4.6的一些库
 
 另外的一些命令记录
 
-```c++
+```
 //依赖库
 -DWITH_OPENCL=ON\
 -DWITH_CUDA=OFF\
@@ -445,7 +445,7 @@ opencv3.4.6的一些库
 
 整理一份较为完整的，部分的状态不对，少一些未指定，先编译
 
-```c++
+```
 cmake -DCMAKE_BUILD_TYPE=RELEASE \
 			-DCMAKE_INSTALL_PREFIX=/home/mmm/opencv02 \
 			-DWITH_OPENCL=ON\
@@ -508,7 +508,7 @@ cmake -DCMAKE_BUILD_TYPE=RELEASE \
 
 编译成功，运行的命令如下
 
-```c++
+```
 cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/home/mmm/opencv02-DWITH_OPENCL=ON      -DWITH_CUDA=OFF      -DWITH_OPENGL=OFF      -DWITH_OPENMP=OFF      -DWITH_OPENNI=OFF      -DWITH_OPENNI2=OFF      -DWITH_OPENVX=OFF      -DWITH_OPENEXR=ON      -DBUILD_CUDA_STUBS=OFF      -DBUILD_DOCS=OFF      -DBUILD_EXAMPLES=OFF      -DBUILD_IPP_IW=ON      -DBUILD_ITT=ON      -DBUILD_JASPER=ON      -DBUILD_JAVA=OFF      -DBUILD_JPEG=ON      -DBUILD_OPENEXR=ON      -DBUILD_PACKAGE=ON      -DBUILD_PERF_TESTS=OFF      -DBUILD_PNG=ON      -DBUILD_PROTOBUF=ON      -DBUILD_SHARED_LIBS=ON      -DBUILD_TBB=OFF      -DBUILD_TESTS=ON      -DBUILD_TIFF=ON      -DBUILD_USE_SYMLINKS=OFF      -DBUILD_WEBP=ON      -DBUILD_WITH_DEBUG_INFO=OFF      -DBUILD_WITH_DYNAMIC_IPP=OFF      -DBUILD_ZLIB:BOOL=ON      -DBUILD_opencv_apps=OFF      -DBUILD_opencv_calib3d=OFF      -DBUILD_opencv_core=ON      -DBUILD_opencv_dnn=OFF      -DBUILD_opencv_features2d=OFF      -DBUILD_opencv_flann=OFF      -DBUILD_opencv_highgui=OFF      -DBUILD_opencv_imgcodecs=ON      -DBUILD_opencv_imgproc=ON      -DBUILD_opencv_java_bindings_generator=OFF      -DBUILD_opencv_js=OFF      -DBUILD_opencv_ml=OFF      -DBUILD_opencv_objdetect=OFF      -DBUILD_opencv_photo=OFF      -DBUILD_opencv_python2=OFF      -DBUILD_opencv_python_bindings_generator=OFF      -DBUILD_opencv_shape=OFF      -DBUILD_opencv_stitching=OFF      -DBUILD_opencv_superres=OFF      -DBUILD_opencv_ts=OFF      -DBUILD_opencv_video=OFF      -DBUILD_opencv_videoio=OFF      -DBUILD_opencv_videostab=OFF      -DBUILD_opencv_world=OFF ..
 ```
 

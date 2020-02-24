@@ -76,9 +76,13 @@ An Improved Adaptive Background Mixture Model for Realtime Tracking with Shadow 
 
 #####  *BackgroundSubtractorKNN*
 
+头文件在video模块中
+
+include <opencv2/video/background_segm.hpp> 
 
 
-*基类*
+
+* 基类*
 
 ```c++
 class cv::BackgroundSubstractor{
