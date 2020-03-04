@@ -520,6 +520,23 @@ cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/home/xxx/opencvsdk -DWI
 
 
 
+#####共享库的使用
+
+```
+拷贝完以后，可以将单独的so库取出来链接，但是可能会出现找不到共享库so的情况
+解决办法是：
+
+cd /etc/ld.so.conf.d
+touch OpenCV.conf
+文件中写入路径(opencv的库的路径)
+/usr/local/lib
+ldconfig
+
+完成后可以找到库并输出正确的结果
+```
+
+
+
 
 
 ##### windows编译的参考博客
